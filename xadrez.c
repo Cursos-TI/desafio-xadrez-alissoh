@@ -22,4 +22,15 @@ int main() {
     for (i = 1; i <= 5; i++) {
         printf("Passo %d: Movendo para a direita\n", i);
     }
+
+    printf("\n");
+
+    //--- Movimentação da Rainha ---
+    printf("## Movimentos da Rainha ##\n");
+    // O loop se repete 8 vezes.
+    for (i = 1; i <= 8; i++) {
+        printf("Passo %d: Movendo para a esquerda\n", i);
+    }
+
+    return 0;
 }
